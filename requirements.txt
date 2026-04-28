@@ -1,0 +1,21 @@
+# ─── Gmail / Google Auth ────────────────────────────────────────────────────
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
+
+# ─── Local date parsing (offline, no API calls) ────────────────────────────
+dateparser>=1.2.0
+
+# ─── Job scheduling ────────────────────────────────────────────────────────
+APScheduler>=3.10.4
+
+# ─── Cross-platform desktop notifications ──────────────────────────────────
+plyer>=2.1.0
+
+# ─── HTTP (for Ollama local API calls only) ────────────────────────────────
+requests>=2.31.0
+
+# ─── Optional: Windows 10/11 toast notifications ───────────────────────────
+# Uncomment the line below if you are on Windows and want richer toasts:
+# win10toast>=0.9
